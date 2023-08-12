@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "strict": true,
+        "alwaysStrict": true,
+        "target": "ES5",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "skipLibCheck": true,
+        "module": "CommonJS",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": false,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": false,
+        "jsx": "preserve",
+        "incremental": true,
+        "composite": false,
+        "useDefineForClassFields": false,
+        "rootDir": "./src/",
+        "outDir": "./dist/"
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": []
+}

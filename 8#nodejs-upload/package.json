@@ -1,0 +1,29 @@
+{
+    "name": "nodejs-upload",
+    "main": "./src/index.ts",
+    "private": true,
+    "author": "rifuki",
+    "version": "1.0.0",
+    "license": "ISC",
+    "keywords": [
+        "upload"
+    ],
+    "description": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\"",
+        "dev": "clear && nodemon",
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "start": "nodemon ./dist/",
+        "copy-files": "cp -r ./src/pages ./dist/"
+    },
+    "dependencies": {
+        "formidable": "^2.1.1",
+        "mv": "^2.1.1"
+    },
+    "devDependencies": {
+        "@types/formidable": "^2.0.5",
+        "@types/mv": "^2.1.2",
+        "@types/node": "^18.11.18"
+    }
+}

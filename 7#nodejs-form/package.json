@@ -1,0 +1,21 @@
+{
+    "name": "nodejs-form",
+    "main": "./src/index.ts",
+    "private": true,
+    "author": "rifuki",
+    "version": "1.0.0",
+    "license": "ISC",
+    "keywords": [
+        "form"
+    ],
+    "description": "",
+    "scripts": {
+        "test": "echo \"Error: no specified test\"",
+        "dev": "clear && nodemon",
+        "build": "tsc"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@types/node": "^18.11.18"
+    }
+}

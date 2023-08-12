@@ -1,0 +1,43 @@
+// {
+//     "ts-node": {
+//         "compilerOptions": {
+//             "module": "CommonJS",
+//             "moduleResolution": "NodeNext"
+//         }
+//     },
+//     "compilerOptions": {
+//         "allowJs": false,
+//         "strict": true,
+//         "alwaysStrict": true,
+//         "target": "ESNext",
+//         "lib": ["DOM", "DOM.Iterable", "ESNext"],
+//         "skipLibCheck": true,
+//         "module": "CommonJS",
+//         "moduleResolution": "NodeNext",
+//         "esModuleInterop": true,
+//         "allowSyntheticDefaultImports": true,
+//         "resolveJsonModule": true,
+//         "forceConsistentCasingInFileNames": true,
+//         "noEmit": true,
+//         "incremental": true,
+//         "jsx": "preserve",
+//         "composite": false,
+//         "useDefineForClassFields": false,
+//         "rootDir": "src",
+//         "outDir": "./dist"
+//     },
+//     "include": ["./src/**/*.ts"],
+//     "exlude": []
+// }
+
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "target": "ES5",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "rootDir": "./src/",
+        "outDir": "./dist",
+        "esModuleInterop": true
+    }
+}

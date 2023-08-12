@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn dev
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/aozora/nodejs/5#nodejs-file/package.json: Unexpected token , in JSON at position 167
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+      "name": "nodejs-file",
+      "main": "./src/index.ts",
+      "private": true,
+      "author": "rifuki",
+      "version": "1.0.0",
+      "license": "ISC",
+      "description",
+      "scripts": {
+          "test": "echo \"Error: no specified test\"",
+          "dev": "nodemon",
+          "build": "tsc"
+      },
+      "dependencies": {},
+      "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

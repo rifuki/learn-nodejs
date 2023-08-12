@@ -1,0 +1,25 @@
+###
+GET http://localhost:3001/
+
+###
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+    "username": "rika",
+    "password": "umeume",
+    "refresh_token": ""
+}
+
+###
+PUT http://localhost:3001/63b0b9ce8af0e02fa8e1ee9d
+Content-Type: application/json
+
+{
+    "username": "cheqd",
+    "password": "rugpull",
+    "refresh_token": ""
+}
+
+###
+DELETE http://localhost:3001/63b0b9d38af0e02fa8e1eea1

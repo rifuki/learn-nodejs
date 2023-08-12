@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "strict": true,
+        "alwaysStrict": true,
+        "target": "ESNext",
+        "lib": ["DOM", "ESNext"],
+        "skipLibCheck": true,
+        "module": "ESNext",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": false,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "useDefineForClassFields": true,
+        "baseUrl": "./src",
+        "outDir": "./dist"
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS"
+        }
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": []
+}

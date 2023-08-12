@@ -1,0 +1,27 @@
+{
+    "ts-node": {
+        "compilerOptions": {
+            "module": "CommonJS",
+            "moduleResolution": "NodeNext"
+        }
+    },
+    "compilerOptions": {
+        "allowJs": false,
+        "strict": true,
+        "alwaysStrict": true,
+        "target": "ESNext",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "skipLibCheck": true,
+        "module": "ESNext",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "jsx": "preserve",
+        "incremental": true
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": []
+}
